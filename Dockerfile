@@ -13,7 +13,6 @@ FROM hashicorp/terraform
 # Copy files into our localstack container
 
 COPY --from=buildsite /app/static-website/build /build
-COPY infrastructure /infrastructure
 WORKDIR /infrastructure
 
 # terraform init

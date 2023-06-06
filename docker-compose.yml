@@ -6,4 +6,6 @@ services:
   terraform:
     build:
       context: .
+    volumes:
+      - ./infrastructure:/infrastructure
     entrypoint: sh
