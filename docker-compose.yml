@@ -6,6 +6,9 @@ services:
   terraform:
     build:
       context: .
+    environment:
+      - TF_LOG_PATH=/infrastructure/terraform.log
+      - TF_LOG_PROVIDER=DEBUG
     volumes:
       - ./infrastructure:/infrastructure
     entrypoint: sh

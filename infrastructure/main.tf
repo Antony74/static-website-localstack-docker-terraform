@@ -11,6 +11,7 @@ provider "aws" {
     apigateway     = "http://localstack:4566"
     apigatewayv2   = "http://localstack:4566"
     cloudformation = "http://localstack:4566"
+    cloudfront     = "http://localstack:4566"
     cloudwatch     = "http://localstack:4566"
     dynamodb       = "http://localstack:4566"
     ec2            = "http://localstack:4566"

@@ -16,7 +16,7 @@ docker-compose run terraform --rm
 And there you can run commands such as 
 
 ```
-terraform apply -auto-approve
+terraform apply --auto-approve
 ```
 
 Clean up
